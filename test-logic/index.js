@@ -26,6 +26,6 @@ const getLongest = (a) => {
   return stack.join('');
 };
 
-console.log(getLongest(['flower', 'flow', 'flight']));
-console.log(getLongest(['dog', 'racecar', 'car']));
-console.log(getLongest(['bank', 'bang', 'banana']));
+console.log(getLongest(['flower', 'flow', 'flight'])); // "fl"
+console.log(getLongest(['dog', 'racecar', 'car'])); // ""
+console.log(getLongest(['bank', 'bang', 'banana'])); // "ban"
