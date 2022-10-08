@@ -17,7 +17,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZ
 
 
 ###
-DELETE  http://localhost:4000/v1/delete/2
+DELETE  http://localhost:4000/v1/delete/1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2NjUyMTMzMTksImV4cCI6MTY2NTIxNjkxOX0.LluB-5ciACXa8in1UVrMJZ22I9Mu0lEzWiIDyu1fo54
 
 ###
