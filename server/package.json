@@ -1,0 +1,30 @@
+{
+  "name": "test-rest-api-bdms",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "thanarak chaisri",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "envalid": "^7.3.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "multer": "^1.4.5-lts.1",
+    "pino": "^7.9.2",
+    "sharp": "^0.30.6"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "docker-build": "docker build -t upchat-server:prod ."
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.6",
+    "utf-8-validate": "^5.0.9"
+  }
+}

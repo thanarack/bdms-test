@@ -1,0 +1,40 @@
+POST http://localhost:4000/v1/create HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2NjUyMTMzMTksImV4cCI6MTY2NTIxNjkxOX0.LluB-5ciACXa8in1UVrMJZ22I9Mu0lEzWiIDyu1fo54
+
+{
+    "title": "ทดสอบ1"
+}
+
+###
+GET http://localhost:4000/v1/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2NjUyMTMzMTksImV4cCI6MTY2NTIxNjkxOX0.LluB-5ciACXa8in1UVrMJZ22I9Mu0lEzWiIDyu1fo54
+
+
+###
+GET http://localhost:4000/v1/p/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2NjUyMTMzMTksImV4cCI6MTY2NTIxNjkxOX0.LluB-5ciACXa8in1UVrMJZ22I9Mu0lEzWiIDyu1fo54
+
+
+###
+DELETE  http://localhost:4000/v1/delete/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2NjUyMTMzMTksImV4cCI6MTY2NTIxNjkxOX0.LluB-5ciACXa8in1UVrMJZ22I9Mu0lEzWiIDyu1fo54
+
+###
+PUT http://localhost:4000/v1/update/1 HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2NjUyMTMzMTksImV4cCI6MTY2NTIxNjkxOX0.LluB-5ciACXa8in1UVrMJZ22I9Mu0lEzWiIDyu1fo54
+
+{
+    "title": "test แก้ไข",
+    "status": "complete"
+}
+
+###
+POST http://localhost:4000/v1/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin1234"
+}
