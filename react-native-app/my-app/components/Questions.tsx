@@ -87,6 +87,7 @@ export default function QuestionsComponent() {
       )}
       {!noQuestions && question && (
         <>
+          <Text style={styles.titleTopic}>ข้อที่ {pointContext.marks.length + 1}</Text>
           <Text style={styles.title}>{question.title}</Text>
           <View style={styles.answerBox}>
             {question.answers.map((v, i) => (
@@ -123,6 +124,9 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  titleTopic: {
+    fontSize: 14,
   },
   title: {
     marginTop: 10,
