@@ -11,8 +11,8 @@ const getLongest = (a) => {
     for (let j = 0; j < words.length; j++) {
       const char = words[j];
       let flag = true;
-      for (let i = 0; i < a.length; i++) {
-        const subWords = a[i];
+      for (let m = 0; m < a.length; m++) {
+        const subWords = a[m];
         if (subWords[j] !== char) {
           flag = false;
         }
