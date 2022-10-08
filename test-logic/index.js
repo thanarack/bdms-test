@@ -1,3 +1,8 @@
+/**
+ * Function to find the longest common prefix string amongst an array of strings
+ * @param a - an array of strings
+ * @returns string
+ */
 const getLongest = (a) => {
   const stack = [];
 
